@@ -1,3 +1,3 @@
-URL = '1'
+URL = ''
 USERNAME = ''
 PASSWORD = ''

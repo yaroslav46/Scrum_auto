@@ -27,7 +27,7 @@ for i in info:
     driver.find_element(By.ID, 'create_link').click()
     sleep(5)
     driver.find_element(By.ID, 'summary').send_keys(i['Work'])
-    #driver.find_element(By.ID, 'mce_7_ifr').send_keys(i['info_field'])
+    driver.find_element(By.ID, 'description').send_keys(i['info_field'])
     driver.find_element(By.ID, 'assignee-field').send_keys(Keys.CONTROL,"A")
     driver.find_element(By.ID, 'assignee-field').send_keys(i['name'])
     sleep(2)
