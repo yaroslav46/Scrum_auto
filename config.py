@@ -1,0 +1,3 @@
+URL = '1'
+USERNAME = ''
+PASSWORD = ''
