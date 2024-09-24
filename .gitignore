@@ -1,8 +1,6 @@
 __pycache__
 .venv
 .vscode
-build
-dist
 Thumbs.db
 Thumbs.db: зашифрованный 
 ehthumbs.db 
